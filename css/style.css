@@ -10,6 +10,12 @@ body{
 .landing .online{
     font-size: 50px;
 }
+@media (max-width:630px) {
+    .landing .ima,
+    .about .ima{
+    width: 400px;
+}
+}
 .boxes{
     margin-top: -140px;
 }
