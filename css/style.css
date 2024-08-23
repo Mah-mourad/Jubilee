@@ -1,0 +1,190 @@
+body{
+    font-family: "Gupter", sans-serif;
+}
+.landing{
+    background-color: bisque;
+}
+.landing .master{
+    font-size: 80px;
+}
+.landing .online{
+    font-size: 50px;
+}
+.boxes{
+    margin-top: -140px;
+}
+.boxes .box{
+    background-color: aliceblue;
+    transition: all .4s ease;
+    margin-bottom: 15px;
+}
+.boxes .box:hover{
+    background-color: rgb(33, 165, 121);
+    color: aliceblue;
+}
+.boxes .box:hover .num{
+    color: aliceblue;
+}
+.boxes .box .num{
+    color: rgb(212, 62, 62);
+    font-weight: bolder;
+    font-size: 50px;
+    transition: all .4s ease;
+}
+.boxes .box .num2{
+    font-size: 30px;
+}
+@media (min-width:992px) and (max-width:1200px){
+    .boxes .box .num2{
+        font-size: 25px;
+    }
+}
+@media (min-width:992px) and (max-width:1266px){
+    .image{
+        margin-left: -110px;
+    }
+    .landing .master{
+        font-size: 70px;
+    }
+    .landing .online{
+        font-size: 35px;
+    }
+}
+.about .us{
+    font-size: 45px;
+}
+.about .learn{
+    background-color: rgb(33, 165, 121);
+    color: aliceblue;
+}
+.about .learn:hover{
+    background-color: rgb(58, 201, 153);
+}
+.vie{
+    background-color: rgb(33, 165, 121);
+    color: aliceblue;
+}
+.vie:hover{
+    background-color: rgb(58, 201, 153);
+}
+.one{
+    background-color: rgb(243, 85, 85 ,.7);
+    padding: 15px;
+    padding-left: 25px;
+    border-radius: 15px;
+    transition: all .3s ease;
+}
+.one:hover{
+    background-color: rgb(220, 61, 61);
+}
+.two{
+    background-color: rgb(81, 206, 164);
+    padding: 15px;
+    padding-left: 25px;
+    border-radius: 15px;
+    transition: all .3s ease;
+}
+.two:hover{
+    background-color: rgb(17, 173, 121);
+}
+.three{
+    background-color: rgb(184, 181, 181);
+    padding: 15px;
+    padding-left: 25px;
+    border-radius: 15px;
+    transition: all .3s ease;
+}
+.three:hover{
+    background-color: rgb(143, 140, 140);
+}
+.four{
+    background-color: rgb(193, 193, 56, .6);
+    padding: 15px;
+    padding-left: 25px;
+    border-radius: 15px;
+    transition: all .3s ease;
+}
+.four:hover{
+    background-color: rgb(241, 241, 96);
+}
+.pen{
+    color: rgb(241, 241, 96);
+    transition: all .3s ease;
+}
+.four:hover .pen{
+    color: white;
+}
+.moo{
+    color: rgb(8, 187, 128);
+    transition: all .3s ease;
+}
+.two:hover .moo{
+    color: white;
+}
+.seo{
+    color: rgb(243, 61, 61);
+    transition: all .3s ease;
+}
+.one:hover .seo{
+    color: white;
+}
+.sale{
+    color: rgb(119, 118, 118);
+    transition: all .3s ease;
+}
+.three:hover .sale{
+    color: white;
+}
+@media (max-width: 992px) {
+    .categories h3{
+        font-size: 20px;
+    }
+    .categories h4{
+        font-size: 15px;
+    }
+}
+.cours{
+    text-decoration: none;
+    color: black;
+    transition: all .3s ease;
+}
+.cours:hover{
+    color: rgb(33, 165, 121);
+}
+.cards .card{
+    box-shadow: 1px 1px rgb(174, 174, 174);
+    transition: all .3s ease;
+}
+.cards .card:hover{
+    box-shadow: inset 2px 2px rgb(174, 174, 174);
+}
+.reviews{
+    background-color: rgb(138, 245, 209,.4);
+}
+.teacher .card2{
+    max-width: 18rem;
+}
+.teacher .card2 img{
+    border-radius: 15px;
+}
+.subscribe{
+    background-color: rgb(254, 235, 212);
+}
+.before-footer a{
+    text-decoration: none;
+    color: rgb(91, 91, 91);
+    transition: all .3s ease;
+}
+.before-footer a:hover{
+    color: rgb(8, 187, 128);
+}
+.footer .container{
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer span{
+    font-weight: 700;
+}
