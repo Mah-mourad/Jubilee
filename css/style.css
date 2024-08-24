@@ -15,6 +15,20 @@ body{
     .about .ima{
     width: 400px;
 }
+.before-end{
+    font-size: 20px;
+}
+.end{
+    display: none;
+}
+}
+@media (max-width:530px) {
+    .landing .ima{
+    width: 350px;
+}
+.about .ima{
+    display: none;
+}
 }
 .boxes{
     margin-top: -140px;
