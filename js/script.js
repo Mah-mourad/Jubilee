@@ -12,7 +12,3 @@ const BTN1 = document.querySelector(".nav-btn")
               <button class="btn btn-outline" type="submit"><a class="btn btn-outline-danger d-flex align-items-center" href="register.html">Logout <i class="fa-solid fa-right-from-bracket ps-1"></i></a></button>
         `
     }
-
-
-
-
