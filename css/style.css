@@ -177,6 +177,7 @@ body{
 }
 .cards .card:hover{
     box-shadow: inset 2px 2px rgb(174, 174, 174);
+    transform: scale(1.02);
 }
 .reviews{
     background-color: rgb(138, 245, 209,.4);
@@ -186,6 +187,23 @@ body{
 }
 .teacher .card2 img{
     border-radius: 15px;
+}
+.img-icons{
+    bottom: 140px; 
+}
+div.facebook,
+div.instagram,
+div.linkedin{  
+    width: 30px;
+    margin-bottom: 8px;
+    background-color: rgba(49, 48, 48, 0.097);
+    transition: all .4s  ease;
+}
+div.facebook:hover,
+div.instagram:hover,
+div.linkedin:hover{
+
+    color: rgb(8, 187, 128);
 }
 .subscribe{
     background-color: rgb(254, 235, 212);
